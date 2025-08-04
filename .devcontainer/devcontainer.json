@@ -4,6 +4,12 @@
 	"service": "app",
 	"workspaceFolder": "/workspace",
 
+	"features": {
+    		"ghcr.io/devcontainers/features/playwright:1": {
+      			"browsers": ["chromium", "firefox", "webkit"]
+    		}
+  	},
+
 	// Set *default* container specific settings.json values on container create.
 	"settings": {
 		"terminal.integrated.defaultProfile.linux": "bash",
