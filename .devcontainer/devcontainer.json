@@ -5,7 +5,7 @@
 	"workspaceFolder": "/workspace",
 
 	"features": {
-    		"ghcr.io/schlich/devcontainer-features/playwright:0": {}
+    		"ghcr.io/schlich/devcontainer-features/playwright:latest": {}
   	},
 
 	// Set *default* container specific settings.json values on container create.
